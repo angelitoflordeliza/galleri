@@ -241,13 +241,13 @@ h4 {
   padding: 60px 0;
 }
 .onegrid-container {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 .twogrid-container {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 .threegrid-container {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 .onegrid-container img { aspect-ratio: 1 / 1; object-fit: cover; width: 100%; }
 .twogrid-container img { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
@@ -280,4 +280,3 @@ h4 {
   .boxes { height: 250px; }
   .about-container { padding: 1.5rem 1rem; }
 }
-
